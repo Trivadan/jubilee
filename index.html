@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="title" content="Jubilee" />
+<meta name="description" content="Jubilee" />
+<meta name="keywords" content="" />
+<meta name="author" content="Danstan" />
+<meta name="publisher" content="Danstan" />
+<meta name="copyright" content="Danstan" />
+<meta name="creation_Date" content="11/14/2016" />
+<meta name="expires" content="" />
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<title>Jubilee</title>
+<!--StyleSheet-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!--Javascript-->
+<script src="js/google.api.js"></script>
+</head>
+
+<body id="page-top">
+<div class="mainheader">
+<header class="topheader">
+<div class="container">
+  <div class="row">
+    <div class="align-right">
+      <ul class="top_contactinfo">
+        <li class="location_icon pull-left"><span>Jubilee House, Pangani Interchange, Exit 3, Thika Road</span></li>
+        <li class="phone_icon pull-right"><span>0771 399841, 0780 184393, 0780 445098, 0704 367983, 0717 041240</span></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</header>
+  <header class="midheader">
+  <div class="container">
+  <div class="row">
+  <a class="navbar-brand page-scroll mainlogo" href="#page-top"><img src="images/jubilee_logo.jpg" alt="" /></a>
+  <div class="buttonarea">
+  <ul>
+  <li><a href="#" class="btn btn-primary btn-info" role="button">Become a member</a></li>
+  <li><a href="#" class="btn btn-primary btn-info" role="button">Donate</a></li>
+  </ul>
+  </div>
+  </div>
+  </div>
+  </header>
+  <header class="bottomheader">
+    <nav class="mainnav-bar navbar navbar-default" role="navigation"> 
+      
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="navbar-nav navigation btn-group btn-group-justified">
+          <li class="btn-group"><a href="#">Ask the president</a></li>
+          <li class="btn-group"><a href="#" >Counties <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+          <li class="btn-group"><a href="#" >Debates</a></li>
+          <li class="btn-group"><a href="#" >Diaspora <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+          <li class="btn-group"><a href="#" >Events & Rallies</a></li>
+          <li class="btn-group"><a href="#" >News</a></li>
+          <li class="btn-group"><a href="#" >Team</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+      
+    </nav>  	
+  </header>
+</div>
+<div class="bannerarea">
+<section class="mainslider">
+  <ul class="bxslider">
+    <li><img src="images/banner1.jpg" alt="Jubilee" /></li>
+    <li><img src="images/banner1.jpg" alt="Jubilee" /></li>
+    <li><img src="images/banner1.jpg" alt="Jubilee" /></li>
+  </ul>
+</section>	
+</div>
+<div class="valuearea"></div>
+<div class="newsarea"></div>
+<div class="eventarea"></div>
+<div class="survayarea"></div>
+<div class="progressarea"></div>
+<div class="teamarea"></div>
+<div class="footerarea"></div>
+
+<!-- jQuery --> 
+<script src="js/jquery.js"></script> 
+<script type="text/Javascript">
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+
+$(document).ready(function(){
+    $('.bxslider').bxSlider({
+	mode: 'fade',
+	controls: false,
+	pager: false
+});
+});
+</script>
+</body>
+</html>
